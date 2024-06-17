@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="dot-container" id="toggle">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <h1 style="color: black">Google</h1>
+        </h1>
+        <div class="line"></div>
+
+        <div class="profile"><img src="WhatsApp Image 2024-06-17 at 18.39.44_b141d120.jpg" style="border-radius: 50%;"
+                alt="" class="logo">
+            <div class="profile-text">
+                <h2>Omit2907@gmail.com</h2>
+                <p class="account">MY Account</p>
+            </div>
+            <span class="toggle-box"><i class="fa-solid fa-plus"></i></span>
+        </div>
+        <div class="line"></div>
+        <p class="menu"><i class="fa-solid fa-bars"></i> <span>Menu</span></p>
+        <ul>
+
+            <li class="bar"><i class="fa-solid fa-envelope"></i><span>Gmail</span></li>
+            <li class="bar"><i class="fa-brands fa-chrome"></i><span>Google Chrome</span></li>
+            <li class="bar"><i class="fa-solid fa-map-location-dot"></i><span>Google Maps</span></li>
+            <li class="bar"><i class="fa-brands fa-google-drive"></i><span>Google Drive</span></li>
+            <li class="bar"><i class="fa-solid fa-video"></i><span>Google Meet</span></li>
+            <li class="bar"><i class="fa-brands fa-google-pay"></i><span>Google Pay</span></li>
+        </ul>
+        <div class="line" style="position: relative;top: 5px;"></div>
+        <div class="Logout-container">
+            <i class="fa-solid fa-right-from-bracket" style="position: relative; left: 0; top: 30px; font-size: 20px;">
+            </i>
+            <p class="Logout-txt">LOG OUT</p>
+        </div>
+    </div>
+    <script>
+        var toggle = document.getElementById("toggle");
+        var container = document.getElementById("container");
+        toggle.onclick = function () {
+            container.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>
